@@ -30,7 +30,7 @@ PATH: localhost:8080/api/v1/server
 - `Delete /delete/{id}` delete server with that id we passed.
 
 ### Get All Servers
-_This endpoint return all server we found in database_
+_This endpoint return a Response and we can get all server we found in database_
 <table>
   <tr>
     <th>Response: Response </th>
@@ -44,7 +44,7 @@ _This endpoint return all server we found in database_
 </table>
 
 ### Get Server By Id
-_This endpoint return server with that id we passed_
+_This endpoint return a Response and we can get a server with that id we passed_
 <table>
   <tr>
     <th colspan="4" >Response: Response </th>
@@ -67,7 +67,7 @@ _This endpoint return server with that id we passed_
 </table>
 
 ### Get Server By Ip Address
-_This endpoint pinged a server with ip address we passed_
+_This endpoint return a Response and we can a pinged a server with ip address we passed_
 <table>
   <tr>
     <th colspan="4" >Response: Response </th>
@@ -90,7 +90,7 @@ _This endpoint pinged a server with ip address we passed_
 </table>
 
 ### Get Server Image
-_This endpoint return image server we found in database_
+_This endpoint return a Response and we can get a image server we found in database_
 <table>
   <tr>
     <th>Response: Response </th>
@@ -104,7 +104,7 @@ _This endpoint return image server we found in database_
 </table>
 
 ### Post All Servers
-_This endpoint return all server we found in database_
+_This endpoint return a Response and we can add a server in database_
 <table>
   <tr>
     <th>Response: Response </th>
@@ -118,7 +118,7 @@ _This endpoint return all server we found in database_
 </table>
 
 ### Delete Server By Id
-_This endpoint pinged a server with ip address we passed_
+_This endpoint return a Response and we can delete a server with id server_
 <table>
   <tr>
     <th colspan="4" >Response: Response </th>
